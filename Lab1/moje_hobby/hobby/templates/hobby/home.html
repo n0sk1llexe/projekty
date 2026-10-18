@@ -1,0 +1,26 @@
+
+{% extends "hobby/base.html" %}
+
+{% block content %}
+<section>
+    <h2>{{ hobby_name }}</h2>
+    <p>{{ description }}</p>
+
+    <div class="cards">
+        <article class="card">
+            <h3>Ekstraklasa</h3>
+            <p>Śledzenie rozgrywek polskiej ligi piłkarskiej.</p>
+        </article>
+
+        <article class="card">
+            <h3>Taktyka</h3>
+            <p>Analizowanie ustawień i strategii drużyn.</p>
+        </article>
+
+        <article class="card">
+            <h3>Gry menedżerskie</h3>
+            <p>Zarządzanie klubem i budowanie drużyny.</p>
+        </article>
+    </div>
+</section>
+{% endblock %}
